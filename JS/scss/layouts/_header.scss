@@ -1,0 +1,104 @@
+.header {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site__nav {
+  display: flex;
+  margin: 0px;
+}
+//Студия
+.site__nav__link {
+  font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+  color: #212121;
+  position: relative;
+  transition: color var(--transition-timing) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+  }
+}
+
+.site__nav .site__nav__item .site__nav__link__current {
+  color: #2196f3;
+}
+
+// Портфолио
+.site__nav__link__portfolio {
+  font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  letter-spacing: 0.02em;
+  position: relative;
+  color: #212121;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  transition: color var(--transition-timing) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    font-weight: 500;
+
+    letter-spacing: 0.02em;
+    color: #2196f3;
+  }
+}
+
+/* Контакты */
+.site__nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+.site__nav__link__contacts {
+  font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  transition: color var(--transition-timing) var(--transition-function);
+  color: #212121;
+
+  &:hover,
+  &:focus {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #2196f3;
+  }
+}
+
+.contacts {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts__item:hover {
+  color: #2196f3;
+}

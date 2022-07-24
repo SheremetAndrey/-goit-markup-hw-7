@@ -1,0 +1,126 @@
+// соц сети "НАША КОМАНДА"
+.social {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.social__item {
+  width: 44px;
+  height: 44px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.social__link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+  border-radius: 50%;
+  transition: color var(--transition-timing) var(--transition-function),
+    background-color var(--transition-timing) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    color: #fff;
+  }
+}
+
+.social__icon {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+
+  &:hover,
+  &:focus {
+    fill: #ffffff;
+    height: 100%;
+  }
+}
+//==============================
+//СОЦ СЕТИ "FOOTER"
+.sety__come {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  margin-top: 72px;
+}
+.commen {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-top: 0;
+}
+.sety {
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.sety__social {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.svg__icon__come {
+  width: 20px;
+  height: 20px;
+}
+
+.social__all {
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  align-items: center;
+  transition: background var(--transition-timing) var(--transition-function);
+  border-radius: 50%;
+
+  &:hover,
+  &:focus {
+    border-radius: 50%;
+    background: #2196f3;
+  }
+}
+.form__masenger {
+  display: flex;
+  align-items: end;
+  margin-left: 93px;
+}
+.masenger {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.label__masenger {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  width: 358px;
+  height: 50px;
+  margin-top: 20px;
+  color: white;
+}
+
+.send__icon {
+  width: 24px;
+  height: 24px;
+
+  fill: #f5f4fa;
+  margin-left: 10px;
+  align-items: center;
+}

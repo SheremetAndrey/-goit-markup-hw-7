@@ -1,0 +1,139 @@
+.main__button {
+  margin-top: 30px;
+  padding: 10px 32px;
+  min-width: 13px;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1.87;
+  align-items: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: 0;
+  font-family: Roboto;
+  background-color: rgba(33, 150, 243, 1);
+  transition: background-color var(--transition-timing)
+    var(--transition-function);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(24, 140, 232, 1);
+  }
+}
+.masenger__send {
+  display: flex;
+  width: 200px;
+  margin-left: 12px;
+  background-color: rgba(33, 150, 243, 1);
+  justify-content: center;
+  padding: 10px 22px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: 0px;
+  font-family: Roboto;
+  transition: background-color var(--transition-timing)
+    var(--transition-function);
+
+  &:hover,
+  &:focus {
+    background-color: rgb(13, 124, 209);
+  }
+}
+.masenger__send__go {
+  color: rgb(255, 255, 255);
+}
+.btn {
+  display: flexbox;
+  margin: 30px 700px 200px 700px;
+}
+
+//Портфолио
+
+.portfolio__btn {
+  align-items: center;
+  font-family: inherit;
+  text-align: center;
+  padding: 6px 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border: 0;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  transition: backround var(--transition-function), var(--transition-timing);
+  color: #212121;
+  float: left;
+
+  &:hover,
+  &:focus {
+    background: rgba(33, 150, 243, 1);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    color: #ffffff;
+  }
+}
+
+// Modal window
+
+.close {
+  width: 11px;
+  height: 11px;
+}
+
+.close__btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: fill var(--transition-timing) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    fill: #2196f3;
+  }
+}
+
+.send {
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  min-width: 13px;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1.87;
+  align-items: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  border: 0;
+  font-family: Roboto;
+  background-color: rgba(33, 150, 243, 1);
+  transition: background-color var(--transition-timing)
+    var(--transition-function);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(24, 140, 232, 1);
+  }
+}
+.button__item:not(:last-child) {
+  margin-right: 8px;
+}
