@@ -1,0 +1,29 @@
+.link__contacts__icon {
+  fill: #757575;
+  margin-right: 10px;
+  height: 16px;
+  transition: fill var(--transition-timing) var(--transition-function);
+}
+
+.contacts__link:hover .link__contacts__icon,
+.contacts__link:focus .link__contacts__icon {
+  fill: #2196f3;
+}
+
+.contacts__link {
+  display: block;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  align-items: center;
+  transition: color var(--transition-timing) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+}
