@@ -1,0 +1,39 @@
+.adress__footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__container {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.adress {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  text-decoration: none;
+  cursor: default;
+  line-height: 1.71;
+  font-style: normal;
+
+  display: block;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.footer__item {
+  text-decoration: none;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__adress:not(:last-child) {
+  margin-bottom: 9px;
+}
